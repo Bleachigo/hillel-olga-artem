@@ -1,3 +1,73 @@
 .section-container {
-  padding-inline: calc(50vw - 555px);
+  padding-inline: calc(50% - 555px);
+}
+
+.subtitle {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.projects {
+  background: var(--accent-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.projects__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 45px;
+  color: #fff;
+}
+
+.projects__item {
+  padding-left: 70px;
+  padding-top: 4px;
+  background: url("../img/project.svg") left / 50px 50px no-repeat;
+}
+
+.projects__title {
+  margin: 0 0 3px;
+}
+
+.projects__text {
+  margin: 0;
+  font-weight: 400;
+}
+
+.video {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.video__title {
+  font-size: var(--section-title);
+  color: #000;
+  text-align: center;
+  margin: 0 0 50px;
+}
+
+.video__text {
+  max-width: 540px;
+  text-align: center;
+  margin: 0 auto 57px;
+  line-height: var(--paragraph-lh);
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: var(--accent-color);
+}
+
+.copyrights__title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.copirights__info {
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
 }
