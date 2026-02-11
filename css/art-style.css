@@ -24,7 +24,7 @@
 .projects__item {
   padding-left: 70px;
   padding-top: 4px;
-  background: url("../img/project.svg") left / 50px 50px no-repeat;
+  background: url("../img/project.png") left / 50px 50px no-repeat;
 }
 
 .projects__title {
