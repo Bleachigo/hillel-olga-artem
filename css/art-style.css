@@ -39,7 +39,7 @@
 .video {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: #eeeff1;
+  background: var(--grey-back);
 }
 
 .video__title {
