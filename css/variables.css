@@ -3,6 +3,8 @@
   --paragraph-fz: 16px;
   --paragraph-lh: 1.64;
   --paragraph-clr: #727272;
+  --grey-back: #eeeff1;
+  --body-back: #f9f9f9;
   --section-title: 32px;
   --font-stack: Roboto, sans-serif;
 }
