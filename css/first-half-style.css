@@ -32,34 +32,25 @@
   padding-bottom: 140px;
   padding-top: 90px;
 }
-.section_container_offer {
-  background: var(--grey-back);
-  padding-top: 30px;
-  padding-left: 400px;
-  padding-bottom: 300px;
-  padding-right: 1000px;
-  font-size: 16px;
-  line-height: 164%;
-  font-weight: 400;
-  color: var(--paragraph-color);
-}
-h1 {
+.offer__title {
+  margin: 0 0 60px;
   font-size: 48px;
   font-weight: 500;
   color: #000;
 }
+.offer__text {
+  margin: 0 0 65px;
+  max-width: 540px;
+  line-height: var(--paragraph-lh);
+}
 
-.button_write-to-me {
-  width: 225px;
-  height: 65px;
+.offer__btn {
   background-color: var(--accent-color);
-
   color: #ffffff;
-  position: absolute;
-  top: 494px;
-  left: 400px;
-  text-align: center;
-  text-justify: center;
+  padding: 21px 41px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: none;
 }
 
 .about_container {
