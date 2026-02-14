@@ -28,7 +28,10 @@
   font-weight: 500;
   color: var(--accent-color);
 }
-
+.offer {
+  padding-bottom: 140px;
+  padding-top: 90px;
+}
 .section_container_offer {
   background: var(--grey-back);
   padding-top: 30px;
