@@ -9,9 +9,11 @@ body {
   padding: 0 400px;
 }
 .header {
-  width: 520px;
   padding-top: 80px;
   padding-bottom: 70px;
+}
+.navigation {
+  width: 520px;
 }
 .header_menu_grid {
   display: grid;
