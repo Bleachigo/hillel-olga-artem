@@ -11,7 +11,6 @@ html {
 }
 
 body {
-  margin: 0;
   font-family: var(--font-stack);
   font-size: var(--paragraph-fz);
   color: var(--paragraph-clr);
