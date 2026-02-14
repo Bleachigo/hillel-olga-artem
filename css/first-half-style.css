@@ -1,10 +1,10 @@
 .section_container {
-  background: var(--grey-back);
   padding: 0 400px;
 }
 .header {
   padding-top: 80px;
   padding-bottom: 70px;
+  background: var(--grey-back);
 }
 .navigation {
   width: 520px;
@@ -31,6 +31,7 @@
 .offer {
   padding-bottom: 140px;
   padding-top: 90px;
+  background: var(--grey-back);
 }
 .offer__title {
   margin: 0 0 60px;
@@ -51,18 +52,21 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border: none;
+  cursor: pointer;
 }
-
-.about_container {
-  padding: 90px 690px;
-  text-justify: center;
+.about {
+  padding-top: 112px;
+  padding-bottom: 100px;
+}
+.about__title {
+  margin: 0 0 50px;
   text-align: center;
-  line-height: 164%;
-}
-
-h2 {
-  color: black;
-  font-size: 32px;
+  color: #000;
   font-weight: 500;
-  justify-self: center;
+  font-size: var(--section-title);
+}
+.about__text {
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
 }
