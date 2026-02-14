@@ -1,9 +1,3 @@
-body {
-  font-family: roboto;
-  background-color: #f9f9f9;
-  width: 1920px;
-}
-
 .section_container {
   background: var(--grey-back);
   padding: 0 400px;
