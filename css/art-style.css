@@ -83,3 +83,27 @@
   font-weight: 400;
   color: #fff;
 }
+
+@media screen and (max-width: 1199px) {
+  .section-container {
+    padding-inline: calc(50% - (960px / 2));
+  }
+  .projects__item {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .section-container {
+    padding-inline: calc(50% - (720px / 2));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-container {
+    padding-inline: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+}
