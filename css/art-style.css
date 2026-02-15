@@ -75,11 +75,13 @@
 }
 
 .copyrights__title {
+  margin: 0;
   margin-bottom: 20px;
   color: #fff;
 }
 
 .copirights__info {
+  margin: 0;
   font-size: 13px;
   font-weight: 400;
   color: #fff;
@@ -129,6 +131,7 @@
     font-size: 5vw;
   }
 
+  .video,
   .projects {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -141,5 +144,28 @@
 
   .projects__item {
     padding-left: 13%;
+  }
+
+  .video__title {
+    margin-bottom: 17px;
+  }
+
+  .video__text {
+    margin-bottom: 25px;
+    max-width: 80%;
+  }
+
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+
+  .copyrights__title {
+    margin-bottom: 10px;
+  }
+
+  .copirights__info {
+    font-size: 2.2vw;
   }
 }
