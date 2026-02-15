@@ -60,7 +60,7 @@
   line-height: var(--paragraph-lh);
 }
 
-.video__video {
+.video__iframe {
   width: 100%;
   max-width: 1110px;
   aspect-ratio: 16/9;
