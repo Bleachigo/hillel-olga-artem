@@ -1,12 +1,10 @@
-/** {
-  outline: 1px solid;
-}*/
 .section_container {
   padding-inline: calc(50% - (1110px / 2));
 }
 .header {
   padding-top: 80px;
   padding-bottom: 70px;
+
   background: var(--grey-back);
 }
 
@@ -16,6 +14,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  max-width: 575px;
 }
 
 .header_menu_grid_link {
@@ -87,7 +86,7 @@
     padding-inline: calc(50% - (540px / 2));
   }
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 375px) {
   .section_container {
     padding-inline: 15px;
   }
