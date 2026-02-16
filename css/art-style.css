@@ -19,6 +19,18 @@
   font-weight: 500;
 }
 
+.burger {
+  width: 25px;
+  margin-left: auto;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.burger__line {
+  border: 1px solid #000;
+}
+
 .header {
   background: var(--grey-back);
   padding-top: 80px;
@@ -206,32 +218,52 @@
     font-size: 3.5vw;
   }
 
-  .video__title {
-    font-size: 5vw;
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
-  .video,
-  .projects {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 65px;
   }
 
+  .offer__title {
+    font-size: 7.5vw;
+    margin-bottom: 25px;
+  }
+
+  .offer__text {
+    margin-bottom: 35px;
+  }
+
+  .projects,
+  .about,
+  .video {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .video__title,
+  .about__title {
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+  }
+
+  .offer__text,
   .projects__text,
-  .video__text {
+  .video__text,
+  .about__text {
     font-size: 2.7vw;
+    width: 80%;
   }
 
   .projects__item {
     padding-left: 13%;
   }
 
-  .video__title {
-    margin-bottom: 17px;
-  }
-
   .video__text {
     margin-bottom: 25px;
-    max-width: 80%;
   }
 
   .footer {
@@ -246,5 +278,32 @@
 
   .copirights__info {
     font-size: 2.2vw;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  .offer__text,
+  .projects__text,
+  .video__text,
+  .about__text {
+    font-size: 13px;
   }
 }
