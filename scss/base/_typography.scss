@@ -1,0 +1,7 @@
+@use "../abstracts" as a;
+
+body {
+  font-family: a.$font-stack;
+  font-size: a.$fz-base;
+  color: a.$par-color;
+}

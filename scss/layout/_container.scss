@@ -12,10 +12,10 @@
   }
 
   @include a.md {
-    padding-inline: calc(50% - (a.$container-md / 2));
+    padding-inline: a.$container-md;
   }
 
   @include a.sm {
-    padding-inline: calc(50% - (a.$container-sm / 2));
+    padding-inline: a.$container-sm;
   }
 }
