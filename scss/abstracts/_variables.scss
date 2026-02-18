@@ -1,7 +1,8 @@
 $font-stack: Roboto, sans-serif;
 $fz-base: 16px;
-$fz-h1: 48px;
-$fz-h2: 32px;
+$fz-h1: clamp(1.5em, 4vw + 1em, 3em);
+$fz-h2: clamp(1.3em, 2vw + 1em, 2em);
+$fz-h3: clamp(1em, 2vw + 0.5em, 1.32em);
 $lh-base: 1.64;
 $fw-regular: 400;
 $fw-medium: 500;
