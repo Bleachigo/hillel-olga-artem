@@ -1,4 +1,4 @@
-.section-container {
+.container {
   padding-inline: calc(50% - 555px);
 }
 
@@ -180,13 +180,13 @@
 }
 
 @media screen and (max-width: 1199px) {
-  .section-container {
+  .container {
     padding-inline: calc(50% - (960px / 2));
   }
 }
 
 @media screen and (max-width: 991px) {
-  .section-container {
+  .container {
     padding-inline: calc(50% - (720px / 2));
   }
 
@@ -201,7 +201,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .section-container {
+  .container {
     padding-inline: 30px;
   }
 
@@ -211,7 +211,7 @@
 }
 
 @media screen and (max-width: 575px) {
-  .section-container {
+  .container {
     padding-inline: 15px;
   }
 
