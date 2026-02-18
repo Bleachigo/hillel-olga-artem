@@ -1,3 +1,25 @@
-
+.container {
+  padding-inline: calc(50% - 555px);
+}
+@media screen and (max-width: 1199.98px) {
+  .container {
+    padding-inline: calc(50% - 480px);
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .container {
+    padding-inline: calc(50% - 360px);
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .container {
+    padding-inline: calc(50% - 15px);
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .container {
+    padding-inline: calc(50% - 7.5px);
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

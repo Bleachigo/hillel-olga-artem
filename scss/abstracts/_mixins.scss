@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+@mixin xl {
+  @media screen and (max-width: v.$screen-xl) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media screen and (max-width: v.$screen-lg) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media screen and (max-width: v.$screen-md) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media screen and (max-width: v.$screen-sm) {
+    @content;
+  }
+}
