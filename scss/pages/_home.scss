@@ -73,6 +73,11 @@
     flex-wrap: wrap;
     gap: 15px;
     color: #fff;
+
+    @include a.lg {
+      max-width: 100%;
+      gap: 20px;
+    }
   }
 
   &__item {
@@ -96,9 +101,14 @@
 
   &__text {
     @include a.sm {
-      font-size: 13px;
+      font-size: 2.7vw;
       width: 80%;
     }
+  }
+
+  @include a.sm {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
