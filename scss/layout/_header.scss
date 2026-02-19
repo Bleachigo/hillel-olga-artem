@@ -1,0 +1,26 @@
+@use "../abstracts" as a;
+
+.header {
+  background: a.$grey-back;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.nav {
+  max-width: 565px;
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item--active &__link {
+    font-weight: 500;
+    color: a.$accent;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    color: #000;
+  }
+}
