@@ -29,3 +29,8 @@
     @content;
   }
 }
+
+@mixin section-title {
+  font-size: v.$fz-h2;
+  color: #000;
+}

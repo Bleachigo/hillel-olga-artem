@@ -29,6 +29,12 @@ p {
   margin: 0;
 }
 
+.paragraph-center {
+  max-width: 540px;
+  text-align: center;
+  line-height: a.$lh-base;
+}
+
 ul {
   margin: 0;
   padding: 0;
