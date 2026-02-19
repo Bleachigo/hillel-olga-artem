@@ -1,15 +1,16 @@
-@use "../abstracts" as a;
-
 .btn {
   padding: 21px 41px;
   color: #fff;
   text-transform: uppercase;
-  line-height: a.$lh-base;
+  line-height: 1.64;
   letter-spacing: 0.1em;
-  background: a.$accent;
-
-  @include a.sm {
+  background: #34547a;
+}
+@media screen and (max-width: 575.98px) {
+  .btn {
     padding: 10px 20px;
     font-size: 12px;
   }
 }
+
+/*# sourceMappingURL=index.css.map */

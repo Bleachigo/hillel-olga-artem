@@ -9,13 +9,20 @@ html {
 }
 
 body {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #727272;
   margin: 0;
   background: #f9f9f9;
 }
 
 h1,
 h2,
-h3,
+h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
 p {
   margin: 0;
 }
@@ -34,18 +41,6 @@ button {
 a {
   text-decoration: transparent;
   cursor: pointer;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  color: #727272;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 500;
 }
 
 .container {
@@ -77,6 +72,18 @@ h3 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+@media screen and (max-width: 991.98px) {
+  .header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
 
 .nav {
   max-width: 565px;
@@ -92,6 +99,78 @@ h3 {
 .nav__link {
   text-transform: uppercase;
   color: #000;
+}
+@media screen and (max-width: 474px) {
+  .nav {
+    display: none;
+  }
+}
+
+.burger {
+  width: 25px;
+  margin-left: auto;
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+}
+.burger__line {
+  border: 1px solid #000;
+}
+@media screen and (max-width: 474px) {
+  .burger {
+    display: flex;
+  }
+}
+
+.btn {
+  padding: 21px 41px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1.64;
+  letter-spacing: 0.1em;
+  background: #34547a;
+}
+@media screen and (max-width: 575.98px) {
+  .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 140px;
+  background: #eeeff1;
+}
+@media screen and (max-width: 575.98px) {
+  .hero {
+    padding-top: 30px;
+    padding-bottom: 65px;
+  }
+}
+
+.offer__title {
+  font-size: clamp(1.5em, 4vw + 1em, 3em);
+  margin-bottom: 60px;
+  color: #000;
+}
+@media screen and (max-width: 575.98px) {
+  .offer__title {
+    margin-bottom: 25px;
+  }
+}
+
+.offer__text {
+  max-width: 540px;
+  margin-bottom: 65px;
+  line-height: 1.64;
+}
+@media screen and (max-width: 575.98px) {
+  .offer__text {
+    margin-bottom: 35px;
+    font-size: 13px;
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

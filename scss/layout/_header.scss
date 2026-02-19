@@ -4,6 +4,16 @@
   background: a.$grey-back;
   padding-top: 80px;
   padding-bottom: 80px;
+
+  @include a.lg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  @include a.md {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 .nav {
@@ -22,5 +32,9 @@
   &__link {
     text-transform: uppercase;
     color: #000;
+  }
+
+  @include a.custom {
+    display: none;
   }
 }

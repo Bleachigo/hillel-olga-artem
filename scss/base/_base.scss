@@ -11,13 +11,20 @@ html {
 }
 
 body {
+  font-family: a.$font-stack;
+  font-size: a.$fz-base;
+  color: a.$par-color;
   margin: 0;
   background: a.$body-back;
 }
 
 h1,
 h2,
-h3,
+h3 {
+  margin: 0;
+  font-weight: 500;
+}
+
 p {
   margin: 0;
 }

@@ -23,3 +23,9 @@
     @content;
   }
 }
+
+@mixin custom {
+  @media screen and (max-width: 474px) {
+    @content;
+  }
+}
