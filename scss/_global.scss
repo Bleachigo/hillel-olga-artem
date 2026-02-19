@@ -1,0 +1,31 @@
+@use "vars";
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: vars.$font-stack;
+  font-size: vars.$paragraph-fz;
+  color: vars.$paragraph-clr;
+  background: vars.$body-back;
+}
+
+.section__container {
+  padding-inline: calc(50% - (1110px / 2));
+}
+
+.section-container {
+  padding-inline: calc(50% - 555px);
+}
+
+.subtitle {
+  font-size: 21px;
+  font-weight: 500;
+}

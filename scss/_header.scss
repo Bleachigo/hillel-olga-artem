@@ -1,0 +1,28 @@
+@use "vars";
+
+.header {
+  padding-top: 80px;
+  padding-bottom: 70px;
+
+  background: vars.$grey-back;
+  &__menu__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 575px;
+  }
+  &__menu__grid-link {
+    color: #000;
+    text-decoration: transparent;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  &__menu__grid-link-home {
+    font-weight: 500;
+    color: vars.$accent-color;
+  }
+}

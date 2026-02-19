@@ -1,0 +1,7 @@
+@use "vars";
+@use "global";
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: vars.$accent-color;
+}

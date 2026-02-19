@@ -1,0 +1,13 @@
+@use "vars";
+@use "global";
+.copyrights__title {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  &__info {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff;
+  }
+}

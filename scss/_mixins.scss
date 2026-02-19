@@ -1,0 +1,7 @@
+@use "vars";
+@mixin centered-text {
+  max-width: 540px;
+  margin: auto;
+  text-align: center;
+  line-height: vars.$paragraph-lh;
+}
