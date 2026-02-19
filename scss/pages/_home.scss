@@ -141,3 +141,34 @@
     border: none;
   }
 }
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: a.$accent;
+
+  @include a.sm {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+}
+
+.copyrights__title {
+  font-size: a.$fz-h3;
+  margin-bottom: 20px;
+  color: #fff;
+
+  @include a.sm {
+    margin-bottom: 10px;
+  }
+}
+
+.copirights__info {
+  font-size: 13px;
+  color: #fff;
+
+  @include a.sm {
+    font-size: 2.2vw;
+  }
+}

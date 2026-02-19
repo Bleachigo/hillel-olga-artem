@@ -290,4 +290,38 @@ a {
   border: none;
 }
 
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #34547a;
+}
+@media screen and (max-width: 575.98px) {
+  .footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+  }
+}
+
+.copyrights__title {
+  font-size: clamp(1em, 2vw + 0.5em, 1.32em);
+  margin-bottom: 20px;
+  color: #fff;
+}
+@media screen and (max-width: 575.98px) {
+  .copyrights__title {
+    margin-bottom: 10px;
+  }
+}
+
+.copirights__info {
+  font-size: 13px;
+  color: #fff;
+}
+@media screen and (max-width: 575.98px) {
+  .copirights__info {
+    font-size: 2.2vw;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
