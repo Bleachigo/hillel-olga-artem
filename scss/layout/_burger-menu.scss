@@ -1,4 +1,4 @@
-@use "../abstracts" as a;
+@use "../abstracts" as abst;
 
 .burger {
   width: 25px;
@@ -11,7 +11,7 @@
     border: 1px solid #000;
   }
 
-  @include a.custom {
+  @include abst.custom {
     display: flex;
   }
 }

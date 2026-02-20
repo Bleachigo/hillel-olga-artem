@@ -1,22 +1,22 @@
-@use "../abstracts" as a;
+@use "../abstracts" as abst;
 
 .hero {
   padding-top: 80px;
   padding-bottom: 140px;
-  background: a.$grey-back;
+  background: abst.$grey-back;
 
-  @include a.sm {
+  @include abst.sm {
     padding-top: 30px;
     padding-bottom: 65px;
   }
 }
 
 .offer__title {
-  font-size: a.$fz-h1;
+  font-size: abst.$fz-h1;
   margin-bottom: 60px;
   color: #000;
 
-  @include a.sm {
+  @include abst.sm {
     margin-bottom: 25px;
   }
 }
@@ -24,9 +24,9 @@
 .offer__text {
   max-width: 540px;
   margin-bottom: 65px;
-  line-height: a.$lh-base;
+  line-height: abst.$lh-base;
 
-  @include a.sm {
+  @include abst.sm {
     margin-bottom: 35px;
     font-size: 13px;
     width: 80%;
@@ -40,8 +40,8 @@
   &__title {
     text-align: center;
     margin-bottom: 50px;
-    @include a.section-title;
-    @include a.sm {
+    @include abst.section-title;
+    @include abst.sm {
       margin-bottom: 20px;
     }
   }
@@ -49,20 +49,20 @@
   &__text {
     margin: 0 auto;
 
-    @include a.sm {
+    @include abst.sm {
       width: 80%;
       font-size: 13px;
     }
   }
 
-  @include a.sm {
+  @include abst.sm {
     padding-top: 50px;
     padding-bottom: 50px;
   }
 }
 
 .projects {
-  background: a.$accent;
+  background: abst.$accent;
   padding-top: 100px;
   padding-bottom: 100px;
 
@@ -74,7 +74,7 @@
     gap: 15px;
     color: #fff;
 
-    @include a.lg {
+    @include abst.lg {
       max-width: 100%;
       gap: 20px;
     }
@@ -85,28 +85,28 @@
     padding-top: 4px;
     background: url("../img/project.png") left / contain no-repeat;
 
-    @include a.lg {
+    @include abst.lg {
       flex-basis: 31%;
     }
 
-    @include a.md {
+    @include abst.md {
       flex-basis: 25%;
     }
   }
 
   &__title {
-    font-size: a.$fz-h3;
+    font-size: abst.$fz-h3;
     margin-bottom: 3px;
   }
 
   &__text {
-    @include a.sm {
+    @include abst.sm {
       font-size: 2.7vw;
       width: 80%;
     }
   }
 
-  @include a.sm {
+  @include abst.sm {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -115,9 +115,9 @@
 .video {
   padding-top: 100px;
   padding-bottom: 100px;
-  background: a.$grey-back;
+  background: abst.$grey-back;
 
-  @include a.sm {
+  @include abst.sm {
     padding-top: 50px;
     padding-bottom: 50px;
   }
@@ -126,9 +126,9 @@
     text-align: center;
     margin-bottom: 50px;
 
-    @include a.section-title;
+    @include abst.section-title;
 
-    @include a.sm {
+    @include abst.sm {
       margin-bottom: 20px;
     }
   }
@@ -136,7 +136,7 @@
   &__text {
     margin: 0 auto 57px;
 
-    @include a.sm {
+    @include abst.sm {
       font-size: 13px;
       width: 80%;
       margin-bottom: 25px;
@@ -149,36 +149,5 @@
     aspect-ratio: 16/9;
     max-height: 600px;
     border: none;
-  }
-}
-
-.footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background: a.$accent;
-
-  @include a.sm {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    text-align: center;
-  }
-}
-
-.copyrights__title {
-  font-size: a.$fz-h3;
-  margin-bottom: 20px;
-  color: #fff;
-
-  @include a.sm {
-    margin-bottom: 10px;
-  }
-}
-
-.copirights__info {
-  font-size: 13px;
-  color: #fff;
-
-  @include a.sm {
-    font-size: 2.2vw;
   }
 }

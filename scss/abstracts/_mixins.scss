@@ -1,25 +1,25 @@
-@use "variables" as v;
+@use "variables" as var;
 
 @mixin xl {
-  @media screen and (max-width: v.$screen-xl) {
+  @media screen and (max-width: var.$screen-xl) {
     @content;
   }
 }
 
 @mixin lg {
-  @media screen and (max-width: v.$screen-lg) {
+  @media screen and (max-width: var.$screen-lg) {
     @content;
   }
 }
 
 @mixin md {
-  @media screen and (max-width: v.$screen-md) {
+  @media screen and (max-width: var.$screen-md) {
     @content;
   }
 }
 
 @mixin sm {
-  @media screen and (max-width: v.$screen-sm) {
+  @media screen and (max-width: var.$screen-sm) {
     @content;
   }
 }
@@ -31,6 +31,6 @@
 }
 
 @mixin section-title {
-  font-size: v.$fz-h2;
+  font-size: var.$fz-h2;
   color: #000;
 }

@@ -1,21 +1,21 @@
-@use "../abstracts" as a;
+@use "../abstracts" as abst;
 
 .container {
   padding-inline: calc(50% - 555px);
 
-  @include a.xl {
-    padding-inline: calc(50% - (a.$container-xl / 2));
+  @include abst.xl {
+    padding-inline: calc(50% - (abst.$container-xl / 2));
   }
 
-  @include a.lg {
-    padding-inline: calc(50% - (a.$container-lg / 2));
+  @include abst.lg {
+    padding-inline: calc(50% - (abst.$container-lg / 2));
   }
 
-  @include a.md {
-    padding-inline: a.$container-md;
+  @include abst.md {
+    padding-inline: abst.$container-md;
   }
 
-  @include a.sm {
-    padding-inline: a.$container-sm;
+  @include abst.sm {
+    padding-inline: abst.$container-sm;
   }
 }

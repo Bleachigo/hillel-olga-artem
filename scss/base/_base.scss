@@ -1,4 +1,4 @@
-@use "../abstracts" as a;
+@use "../abstracts" as abst;
 
 html {
   box-sizing: border-box;
@@ -11,11 +11,11 @@ html {
 }
 
 body {
-  font-family: a.$font-stack;
-  font-size: a.$fz-base;
-  color: a.$par-color;
+  font-family: abst.$font-stack;
+  font-size: abst.$fz-base;
+  color: abst.$par-color;
   margin: 0;
-  background: a.$body-back;
+  background: abst.$body-back;
 }
 
 h1,
@@ -33,7 +33,7 @@ p {
 .paragraph-center {
   max-width: 540px;
   text-align: center;
-  line-height: a.$lh-base;
+  line-height: abst.$lh-base;
 }
 
 ul {

@@ -1,14 +1,14 @@
-@use "../abstracts" as a;
+@use "../abstracts" as abst;
 
 .btn {
   padding: 21px 41px;
   color: #fff;
   text-transform: uppercase;
-  line-height: a.$lh-base;
+  line-height: abst.$lh-base;
   letter-spacing: 0.1em;
-  background: a.$accent;
+  background: abst.$accent;
 
-  @include a.sm {
+  @include abst.sm {
     padding: 10px 20px;
     font-size: 12px;
   }
